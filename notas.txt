@@ -1,0 +1,15 @@
+intalar mysql workbench
+criar banco e tabela
+-------------------------------
+no cmd instalar os pacotes:
+npm init
+enter em todos
+npm install express
+npm install body-parser
+npm install mysql --save
+para executar: node app.js
+------------------------------
+POSTMAN
+new
+collection
+add request
