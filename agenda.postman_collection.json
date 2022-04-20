@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "b96382f2-694c-4399-89c9-6ee45dd6a84a",
+		"name": "agenda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consulta todos contatos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/contatos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"contatos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gravar Contato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Gabriel\",\r\n    \"idade\": 21,\r\n    \"email\": \"bibiel@gmail.com\",\r\n    \"numero\": \"11705873090\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/contatos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"contatos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
